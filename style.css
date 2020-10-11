@@ -1,21 +1,73 @@
-@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
 body {
-  background-color: #3b3b98;
+  background-color: #1b262c;
   color: #fff;
   display: flex;
-  font-family: "Piazzolla", serif;
   flex-direction: column;
+  font-family: "Dosis", sans-serif;
   align-items: center;
   justify-content: center;
   padding: 10px;
   min-height: 100vh;
+  font-size: 20px;
 }
 
-p {
-  margin: 5px 0;
+input[type="checkbox"] {
+  margin-right: 0;
 }
 
 h2 {
-  margin: 10px 0 20 px;
   text-align: center;
+}
+
+.container {
+  background-color: #3282b8;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.result-box {
+  background-color: #1b262c;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.result-box #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result-box button {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+#generate {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  background-color: #3b3b98;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
 }
