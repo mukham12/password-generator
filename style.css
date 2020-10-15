@@ -63,6 +63,9 @@ h2 {
   font-size: 16px;
   padding: 8px 12px;
   background-color: #3b3b98;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .setting {
