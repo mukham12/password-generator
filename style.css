@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 body {
   background-color: #1b262c;
   color: #fff;
   display: flex;
   flex-direction: column;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   align-items: center;
   justify-content: center;
   padding: 10px;
@@ -13,7 +13,7 @@ body {
   font-size: 20px;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   margin-right: 0;
 }
 
